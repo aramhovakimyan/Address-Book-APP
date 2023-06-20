@@ -5,7 +5,7 @@ SRCS = ./sources/main.cpp ./sources/addressBook.cpp ./sources/contact.cpp
 OBJS = ${SRCS:.cpp=.o}
 
 CXX = g++ 
-FLAGS = -Wall -Wextra -std=c++17
+FLAGS = -Wall -Wextra -std=c++11
 I = -I./includes
 HEADER = includes/contact.hpp includes/addressBook.hpp
 
