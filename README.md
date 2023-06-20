@@ -21,6 +21,18 @@ The Address Book App is a console-based program written in C++. It allows you to
 5. Print Address Book: Display all contacts in the address book.
 6. Save and Exit: Save the address book to a file and exit the program.
 
+## Contact Structure
+
+A contact in the address book consists of the following attributes:
+
+- **ID**: A unique identifier for the contact.
+- **Name**: The first name of the contact.
+- **Surname**: The last name of the contact.
+- **Email**: The email address of the contact.
+- **Phone**: The phone number of the contact.
+
+When inserting or updating a contact, you will be prompted to provide values for each of these attributes. Ensure that you enter valid and appropriate values for each attribute to maintain accurate contact information.
+
 ## How to Build
 
 To build the Address Book App, follow these steps:
